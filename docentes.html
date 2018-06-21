@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Docentes</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="img/logo2.png">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<style type="text/css">
+		 *{padding:0; margin:0;}
+   .imagen{padding-top: 50px;
+			text-align: center;
+	background:#303f9f;
+	color: white;
+	height: 100px;
+	/* Barra de colores*/
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	font-family: ARIAL;
+}
+	</style>
+</head>
+<br>
+<ody>
+	<div class="imagen">
+	<img src="img/logo2.png" align="left">
+	<font face="ARIAL"><h1>Ingreso de docentes</h1></font>
+	</div>
+	<center>
+	
+	</center>
+<div class="contenedor-formulario">
+		<div class="wrap">
+			<form action="" class="formulario" name="formulario_registro" method="get">
+				<div>
+					<div class="input-group">
+					<label for="username">Nombre</label>
+                  <input type="text" placeholder="Ingrese su nombre">
+						
+					</div>
+					<div class="input-group">
+						<label for="username">Correo</label>
+                        <input type="text" placeholder="Ingrese su correo">
+					</div>
+					<div class="input-group">
+						<label for="username">Contraseña</label>
+                        <input type="text" placeholder="Ingrese su contraseña">
+					</div>
+					<div class="input-group">
+						<label for="username">Repetir contraseña</label>
+                        <input type="text" placeholder="Repita su contraseña">
+					</div>
+					<div class="input-group radio">
+						<input type="radio" name="sexo" id="hombre" value="Hombre">
+						<label for="hombre">Hombre</label>
+						<input type="radio" name="sexo" id="mujer" value="Mujer">
+						<label for="mujer">Mujer</label>
+					</div>
+					<div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos" value="true">
+						<label for="terminos">Acepto los Terminos y Condiciones</label>
+					</div>
+					<input type="submit" id="btn-submit" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+
+</html>
